@@ -10,7 +10,7 @@ hr{
   background-color: white;
 }
 input{
-  width: 81%;
+  width: 70%;
   height: 30px;
 }
 button{
@@ -47,4 +47,8 @@ button:hover {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.center{
+  text-align: center;
 }

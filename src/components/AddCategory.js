@@ -11,10 +11,11 @@ const AddCategory = ({ categorias, setCategorias }) => {
   };
 
   return (
-    <>
-      <input id="nuevaCategoria" placeholder="Buscar imagen.."></input>{" "}
-      <button onClick={handleAdd}>Buscar</button>
-    </>
+    <div className="center">
+      <input id="nuevaCategoria" placeholder="Buscar imagen.."></input>
+      <p></p>
+      <button className="buttonSearch" onClick={handleAdd}>Buscar</button>
+    </div>
   );
 };
 
